@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termes & Conditions - BOUDALIA Agency</title>
+    <link rel="icon" type="image/png" href="logo.ico">
+    <meta name="description" content="Termes & Conditions de BOUDALIA Agency. Consulter nos conditions de service et politiques légales avant d'engager nos services d'agence digitale.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#f97316", 
+                        secondary: "#ea580c",
+                        dark: "#1e293b",
+                        light: "#f8fafc",
+                        peach: "#fff8f5"
+                    },
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif']
+                    },
+                    animation: {
+                        'pulse-glow': 'pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        'pulse-glow': {
+                            '0%, 100%': { opacity: 1, boxShadow: '0 0 15px rgba(249,115,22,0.4)' },
+                            '50%': { opacity: .8, boxShadow: '0 0 30px rgba(249,115,22,0.8)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; overflow-x: hidden; background-color: #f8fafc; }
+        .bg-grid-pattern {
+            background-image: radial-gradient(rgba(249, 115, 22, 0.1) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+        .prose h2 { color: #1e293b; font-weight: 700; font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; }
+        .prose p { color: #475569; line-height: 1.75; margin-bottom: 1rem; }
+        .prose ul { list-style-type: disc; padding-left: 1.5rem; color: #475569; margin-bottom: 1rem; }
+        .prose li { margin-bottom: 0.5rem; }
+    </style>
+
+<style id="modern-upgrade">
+:root{
+  --brand:#f97316;
+  --brand2:#ea580c;
+  --bg:#f8fafc;
+  --text:#1e293b;
+}
+html,body{background:linear-gradient(180deg,#ffffff 0%,var(--bg) 100%);}
+header{backdrop-filter: blur(10px);}
+section, footer{position:relative;}
+a,button{transition:all .25s ease;}
+a:hover{filter:saturate(1.1);}
+.card,.service-card,.process-card,[class*="rounded"]{transition:transform .25s ease, box-shadow .25s ease;}
+.card:hover,.service-card:hover,.process-card:hover{transform:translateY(-4px);}
+img{image-rendering:auto;}
+::selection{background:var(--brand);color:white;}
+</style>
+
+</head>
+<body class="text-dark">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-4 py-4 max-w-7xl relative z-10">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center" data-aos="fade-right" data-aos-duration="800">
+                    <a href="index_fr.php" class="text-2xl font-extrabold text-gray-800 flex items-center hover:scale-105 transition-transform duration-300">
+                        BOUDALIA<span class="bg-primary text-white text-sm px-2 py-1 rounded ml-1 uppercase shadow-md">Agency</span>
+                    </a>
+                </div>
+                <nav class="hidden md:flex items-center space-x-8" data-aos="fade-down" data-aos-duration="800" data-aos-delay="200">
+                    <ul class="flex space-x-8 font-medium">
+                        <li><a href="index_fr.php" class="hover:text-primary transition hover:-translate-y-1 inline-block transform">Accueil</a></li>
+                        <li><a href="services_fr.php" class="hover:text-primary transition hover:-translate-y-1 inline-block transform">Services</a></li>
+                        <li><a href="index_fr.html#portfolio" class="hover:text-primary transition hover:-translate-y-1 inline-block transform">Portfolio</a></li>
+                    </ul>
+                    
+                    <a href="formulaire.php" class="bg-primary text-white font-bold py-2 px-6 rounded-full shadow-lg hover:bg-secondary transition animate-pulse-glow">Réserver un créneau</a>
+                    
+                    <div class="border-l-2 pl-4 flex space-x-2 text-sm font-bold text-gray-400">
+                        <a href="terms-conditions.php" class="hover:text-gray-800 transition">EN</a>
+                        <span>|</span>
+                        <a href="termes-conditions.php" class="text-primary">FR</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-16 md:py-24 bg-dark relative overflow-hidden z-10">
+        <div class="absolute inset-0 bg-grid-pattern opacity-10 mix-blend-overlay"></div>
+        <div class="container mx-auto px-4 max-w-4xl text-center relative z-10 text-white">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4" data-aos="fade-up">Termes & <span class="text-primary">Conditions</span></h1>
+            <p class="text-gray-400 text-lg" data-aos="fade-up" data-aos-delay="200">Dernière mise à jour : Février 2026</p>
+        </div>
+    </section>
+
+    <section class="py-16 relative z-10">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="bg-white p-8 md:p-12 rounded-[2rem] shadow-xl" data-aos="fade-up" data-aos-delay="100">
+                <div class="prose max-w-none">
+                    <p>
+                        Ces Termes et Conditions constituent un accord juridiquement contraignant conclu entre vous, que ce soit personnellement ou au nom d'une entité ("vous") et BOUDALIA Agency ("Entreprise", "nous", "notre" ou "nos"), concernant votre accès et votre utilisation de notre site web ainsi que de toute autre forme de média, canal multimédia, site web mobile ou application mobile qui y est lié, associé ou autrement connecté (collectivement, le "Site").
+                    </p>
+
+                    <h2>1. Acceptation des Conditions</h2>
+                    <p>
+                        En accédant au Site, vous acceptez d'avoir lu, compris et accepté d'être lié par l'ensemble de ces Termes et Conditions. SI VOUS N'ÊTES PAS D'ACCORD AVEC L'ENSEMBLE DE CES TERMES ET CONDITIONS, IL VOUS EST ALORS EXPRESSÉMENT INTERDIT D'UTILISER LE SITE ET VOUS DEVEZ CESSER DE L'UTILISER IMMÉDIATEMENT.
+                    </p>
+
+                    <h2>2. Droits de Propriété Intellectuelle</h2>
+                    <p>
+                        Sauf indication contraire, le Site est notre propriété exclusive et tous les codes sources, bases de données, fonctionnalités, logiciels, designs de sites web, audios, vidéos, textes, photographies et graphiques sur le Site (collectivement, le "Contenu") ainsi que les marques déposées, marques de service et logos qu'il contient (les "Marques") nous appartiennent ou sont sous notre contrôle, ou nous sont concédés sous licence, et sont protégés par les lois sur le droit d'auteur et les marques de commerce ainsi que par divers autres droits de propriété intellectuelle.
+                    </p>
+
+                    <h2>3. Déclarations de l'Utilisateur</h2>
+                    <p>
+                        En utilisant le Site, vous déclarez et garantissez que : 
+                    </p>
+                    <ul>
+                        <li>Toutes les informations d'inscription que vous soumettez seront vraies, exactes, à jour et complètes.</li>
+                        <li>Vous maintiendrez l'exactitude de ces informations et mettrez rapidement à jour ces informations d'inscription si nécessaire.</li>
+                        <li>Vous avez la capacité juridique et vous acceptez de vous conformer à ces Termes et Conditions.</li>
+                        <li>Vous n'utiliserez pas le Site à des fins illégales ou non autorisées.</li>
+                    </ul>
+
+                    <h2>4. Activités Interdites</h2>
+                    <p>
+                        Vous ne pouvez pas accéder ou utiliser le Site à d'autres fins que celles pour lesquelles nous mettons le Site à disposition. Le Site ne peut être utilisé dans le cadre d'activités commerciales, à l'exception de celles qui sont spécifiquement approuvées ou soutenues par nous.
+                    </p>
+                    <p>
+                        En tant qu'utilisateur du Site, vous acceptez de ne pas récupérer systématiquement des données ou d'autres contenus du Site pour créer ou compiler, directement ou indirectement, une collection, une compilation, une base de données ou un répertoire sans notre autorisation écrite préalable.
+                    </p>
+
+                    <h2>5. Modifications et Interruptions</h2>
+                    <p>
+                        Nous nous réservons le droit de changer, modifier ou supprimer le contenu du Site à tout moment ou pour n'importe quelle raison, à notre seule discrétion et sans préavis. Cependant, nous n'avons aucune obligation de mettre à jour les informations sur notre Site. Nous ne serons pas responsables envers vous ou un tiers pour toute modification, changement de prix, suspension ou interruption du Site.
+                    </p>
+
+                    <h2>6. Loi Applicable</h2>
+                    <p>
+                        Ces conditions sont régies et interprétées conformément aux lois françaises, et l'application de la Convention des Nations Unies sur les contrats de vente internationale de marchandises est expressément exclue. Si votre résidence habituelle se trouve dans l'UE et que vous êtes un consommateur, vous bénéficiez en outre de la protection qui vous est accordée par les dispositions obligatoires de la loi de votre pays de résidence.
+                    </p>
+
+                    <h2>7. Nous Contacter</h2>
+                    <p>
+                        Afin de résoudre une réclamation concernant le Site ou de recevoir de plus amples informations concernant son utilisation, veuillez nous contacter à l'adresse suivante :
+                    </p>
+                    <p class="font-semibold text-dark mt-4">
+                        BOUDALIA Agency<br>
+                        14BIS Avenue de Stalingrad<br>
+                        93200 SAINT-DENIS<br>
+                        France<br>
+                        Email : <a href="mailto:contact@boudalia-agency.com" class="text-primary hover:underline">contact@boudalia-agency.com</a><br>
+                        Téléphone : <a href="tel:+330656813503" class="text-primary hover:underline">+33 06 56 81 35 03</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-50 text-dark py-16 border-t border-gray-200 relative z-10">
+        <div class="container mx-auto px-4 max-w-7xl">
+            <div class="flex flex-col md:flex-row justify-between gap-10 mb-16">
+                <div class="md:w-5/12">
+                    <h2 class="text-3xl font-extrabold text-gray-800 mb-6 tracking-tight flex items-center">
+                        BOUDALIA <span class="bg-primary text-white text-sm px-2 py-1 rounded ml-2 uppercase font-bold">Agency</span>
+                    </h2>
+                    <p class="text-gray-600 text-sm leading-relaxed pr-4">
+                        BOUDALIA Agency est votre destination privilégiée pour tous vos besoins digitaux. De la création de sites web visuellement époustouflants à la mise en œuvre de stratégies digitales redoutables.
+                    </p>
+                </div>
+                <div class="md:w-3/12 flex md:justify-center">
+                    <ul class="space-y-3 font-bold text-gray-800 text-sm">
+                        <li><a href="index_fr.php" class="hover:text-primary transition hover:translate-x-2 inline-block transform">Accueil</a></li>
+                        <li><a href="services_fr.php" class="hover:text-primary transition hover:translate-x-2 inline-block transform">Services</a></li>
+                        <li><a href="ui-ux_fr.php" class="hover:text-primary transition hover:translate-x-2 inline-block transform">UX/UI Design</a></li>
+                        <li><a href="web-dev_fr.php" class="hover:text-primary transition hover:translate-x-2 inline-block transform">Développement Web</a></li>
+                        <li><a href="digital-marketing_fr.php" class="hover:text-primary transition hover:translate-x-2 inline-block transform">Marketing Digital</a></li>
+                        <li><a href="seo_fr.php" class="hover:text-primary transition hover:translate-x-2 inline-block transform">Référencement SEO</a></li>
+                    </ul>
+                </div>
+                <div class="md:w-4/12 md:text-right font-bold text-gray-800 text-sm flex flex-col space-y-3">
+                    <a href="mailto:contact@boudalia-agency.com" class="hover:text-primary transition">contact@boudalia-agency.com</a>
+                    <a href="tel:+330656813503" class="hover:text-primary transition">+33 06 56 81 35 03</a>
+                    <div class="mt-8 pt-6 flex flex-col space-y-3">
+                        <a href="politique-confidentialite.php" class="hover:text-primary transition hover:-translate-y-1 transform inline-block">Politique de Confidentialité</a>
+                        <a href="termes-conditions.php" class="text-primary transition hover:-translate-y-1 transform inline-block">Termes & Conditions</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 mt-12 border-t border-gray-200 pt-8">
+                <p>&copy; 2026 BOUDALIA Agency. Tous droits réservés.</p>
+                <div class="flex space-x-4 mt-6 md:mt-0">
+                    <a href="#" class="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center text-gray-800 hover:bg-primary hover:text-white transition duration-300"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center text-gray-800 hover:bg-primary hover:text-white transition duration-300"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center text-gray-800 hover:bg-primary hover:text-white transition duration-300"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center text-gray-800 hover:bg-primary hover:text-white transition duration-300"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true, offset: 50 });
+    </script>
+</body>
+</html>
